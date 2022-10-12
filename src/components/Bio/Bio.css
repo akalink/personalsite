@@ -1,0 +1,9 @@
+#bio{
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    max-width: 75%;
+    align-items: center;
+    margin: auto;
+    
+}

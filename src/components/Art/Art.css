@@ -1,0 +1,21 @@
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.imageGallery {
+    
+    max-width: 49%;
+    min-width: 49%;
+    align-items: center;
+    
+}
+
+img{
+    align-items: center;
+    max-height: 99%;
+    max-width: 99%;
+    border-radius: 1em;
+}
