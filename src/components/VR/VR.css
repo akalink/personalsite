@@ -1,0 +1,16 @@
+img{
+    max-height: 20em;
+}
+#vr{
+    
+    max-width: 75%;
+    margin: auto;
+}
+.feature{
+    display: flex;
+    margin-right: 2em;
+    margin-left: 2em;
+    background-color: #333;
+    color: white;
+    border-radius: 2em;
+}

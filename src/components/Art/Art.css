@@ -7,9 +7,10 @@
 
 .imageGallery {
     
-    max-width: 49%;
-    min-width: 49%;
+
+    min-width: 20%;
     align-items: center;
+    margin: auto;
     
 }
 
