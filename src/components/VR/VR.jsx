@@ -20,6 +20,12 @@ const exps = [
         link:"https://vrchat.com/home/world/wrld_ea0bb230-f1bb-4b4f-98f6-a82d2017a43c",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa est ratione! Vitae, aliquid alias. Sequi voluptate excepturi amet fugit nihil, nam vero, quaerat rem enim nobis, expedita doloribus molestiae."
 
+    },{ key: 4,
+        img: "https://api.vrchat.cloud/api/1/file/file_4f267552-c19b-4adb-9d6f-981a5d2ba6ae/3/file",
+        title: "Rhythm Chasm （climbing）",
+        link:"https://vrchat.com/home/world/wrld_5cbae5ab-10db-4b69-9c49-14235d00a231",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa est ratione! Vitae, aliquid alias. Sequi voluptate excepturi amet fugit nihil, nam vero, quaerat rem enim nobis, expedita doloribus molestiae."
+
     }
 ]
 

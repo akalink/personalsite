@@ -5,5 +5,23 @@
     max-width: 75%;
     align-items: center;
     margin: auto;
+
     
+}
+.biopic {
+    outline-width: thick;
+    outline-style: solid;
+    outline-color: black;
+    border-radius: 50%;
+    width: 50vw;
+    height: auto;
+    margin: 1em;
+    
+    
+    
+}
+
+.biopic img {
+    object-fit: contain;
+    width: 100%;
 }

@@ -2,7 +2,7 @@
     position: relative;
     border: 2px solid #121212;
     border-radius: 6px;
-
+    overflow: hidden;
 }
 
 .card img {
@@ -10,24 +10,38 @@
     display: block;
     margin: auto;
     
+    
 }
+
+#btn{
+
+    outline-style: dotted;
+    color: white;
+    background-color: #121212;
+    font-size: large;
+    border-radius: 10%;
+    padding: .5em;
+    margin: .5em;
+}
+
 
 .card .front {
     transform: rotateY(90deg);
     transition: all ease-in 0.2s;
     position:absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    
 }
 
 .flipped .front{
     transform: rotateY(0deg);
     transition-delay: 0.2s;
-    
+
 }
+
+
 
 .card .back {
     transition: all ease-in 0.2s;
@@ -46,7 +60,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    width: 80%;
+    width: 50%;
     align-items: center;
-   margin: auto;
+    margin: auto;
 }

@@ -12,7 +12,12 @@
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     align-items: center;
+    z-index: 100;
+    height: 5em;
     
+}
+#expand {
+    height: 6em;
 }
 #links {
 
