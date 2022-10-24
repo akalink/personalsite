@@ -1,0 +1,22 @@
+.btn-area {
+    background-color: white;
+    position: relative;
+    size: large;
+    vertical-align: center;
+}
+
+.this-btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    
+    transform: translate(-50%);
+    background-color: gray;
+    color: white;
+    font-size: 8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15%;
+    margin: auto;
+    border-width: 0em;
+    padding: .5em;
+}
