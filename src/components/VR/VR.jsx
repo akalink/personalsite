@@ -26,7 +26,13 @@ const exps = [
         link:"https://vrchat.com/home/world/wrld_5cbae5ab-10db-4b69-9c49-14235d00a231",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa est ratione! Vitae, aliquid alias. Sequi voluptate excepturi amet fugit nihil, nam vero, quaerat rem enim nobis, expedita doloribus molestiae."
 
+    }, {key: 5,
+        img: "https://api.vrchat.cloud/api/1/file/file_6ae9e60a-9785-402a-8458-098ff49cd142/1/file",
+        title: "Path of the Accursed",
+        link: "https://vrchat.com/home/world/wrld_35132929-c35d-4fd3-bfba-585937976141",
+        description: "Lorem"
     }
+
 ]
 
 function VR(){
