@@ -22,6 +22,10 @@
 }
 
 .biopic img {
+    outline-width: thick;
+    outline-style: solid;
+    outline-color: black;
     object-fit: contain;
+    border-radius: 50%;
     width: 100%;
 }

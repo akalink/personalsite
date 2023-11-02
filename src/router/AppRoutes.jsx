@@ -5,6 +5,7 @@ import Portfolio from "../components/Portfolio/Portfolio";
 import VR from "../components/VR/VR";
 import Game from "../components/Game/Game";
 import Intro from "../components/Intro/Intro";
+import Music from "../components/Music/Music";
 
 export const AppRouters = () => (
     <Routes>
@@ -13,6 +14,7 @@ export const AppRouters = () => (
         <Route path="/art" element={<Art />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="VR" element={<VR />} />
+        <Route path="Music" element={<Music />} />
         <Route path="Game" element={<Game />} />
     </Routes>
 )

@@ -1,0 +1,13 @@
+#demo{
+    max-width: 75%;
+    margin: auto;
+}
+
+.project{
+    
+    margin-right: 2em;
+    margin-left: 2em;
+    background-color: #333;
+    color: white;
+    border-radius: 2em;
+}

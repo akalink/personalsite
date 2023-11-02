@@ -11,8 +11,10 @@ const Navbar = () => {
             <h1>Menu</h1>
             <div id="links">
             <a href="/">Home</a>
+            <a href="/about">Bio</a>
             <a href="/portfolio">Portfolio</a>
             <a href="/Game">Memory</a>
+            <a href="/Music">Music</a>
             <a href="/art">Art</a>
             <a href="/VR">VR Experinces</a>
             </div>
