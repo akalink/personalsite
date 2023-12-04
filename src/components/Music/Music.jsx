@@ -13,9 +13,11 @@ function Music(){
     
     return (
         <div className="music-area">
-            {vids.map((vids) => {
-                return <MusicVidsBox link={vids.link}/>})
-            }
+            <div className="gallery">
+                {vids.map((vids) => {
+                    return <MusicVidsBox link={vids.link}/>})
+                }
+            </div>
             
         </div>
     )

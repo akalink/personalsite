@@ -6,14 +6,15 @@
     align-items: center;
     margin: auto;
 
-    
 }
+
 .biopic {
     outline-width: thick;
     outline-style: solid;
     outline-color: black;
     border-radius: 50%;
-    width: 50vw;
+    
+    width: 100%;
     height: auto;
     margin: 1em;
     
@@ -27,5 +28,10 @@
     outline-color: black;
     object-fit: contain;
     border-radius: 50%;
+    height: 100%;
     width: 100%;
+}
+
+.points{
+    text-align: left;
 }

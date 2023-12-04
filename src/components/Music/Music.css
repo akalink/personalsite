@@ -2,7 +2,31 @@
     
     justify-content: center;
     border-style: dashed;
-    max-width: 75%;
+    max-width: 90%;
     align-items: center;
     margin: auto;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.vidGallery {
+    
+
+    min-width: 20%;
+    align-items: center;
+    margin: auto;
+    
+}
+
+iframe {
+    align-items: center;
+    max-height: 99%;
+    max-width: 99%;
+    border-radius: 1em;
+    width:"560";
+    height:"315";
 }

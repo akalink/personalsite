@@ -14,6 +14,7 @@ const Navbar = () => {
             <a href="/about">Bio</a>
             <a href="/portfolio">Portfolio</a>
             <a href="/Game">Memory</a>
+            <a href="/Weather">Weather</a>
             <a href="/Music">Music</a>
             <a href="/art">Art</a>
             <a href="/VR">VR Experinces</a>

@@ -7,7 +7,9 @@ const port = [
     link: "https://github.com/bizbazaar"},
     {title: "SpaceEco",
     description: "SpaceEco is an intergalactic, after-market e-commerce site that allows users to buy and sell items associated with interstellar life. Users are able to sign up to create an account and are redirected to their profile. Clicking on the Catalog link at the top of the page allows users to view the products. From there, users are able to view products and click on a specific products to view the product in greater detail. From there we can buy the selected product. Products can be anything from an arce on Mars to stars lightyears from the Milky Way.",
-    link: "https://github.com/Revature-SpaceEco"},
+    link: "https://github.com/Revature-SpaceEco",
+    pic: "https://github.com/Revature-SpaceEco/spaceeco-documentation/raw/main/screenshots/CartPage.PNG",
+    picAlt: "What the spaceEco site looks like"},
     {title: "DnDBattleApp-Frontend",
     description: "DnDBattleApp is a web game where players can choose from among a selection of budding adventurers to face waves of enemies provided by the D&D 5e API. Players receive rewards for each playthrough and the playthrough's data is saved.",
     link: "https://github.com/220725-JavaReact/SpicyJello-DnDBattleApp-Frontend"},
@@ -23,7 +25,7 @@ function Portfolio(){
     return (
         <div id="demo">
             {port.map((port) => {
-            return <PortfolioBox title={port.title} link={port.link} description={port.description}/>})
+            return <PortfolioBox title={port.title} link={port.link} description={port.description} pic={port.pic} picAlt={port.picAlt}/>})
             }
         </div>
     )

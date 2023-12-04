@@ -6,6 +6,7 @@ import VR from "../components/VR/VR";
 import Game from "../components/Game/Game";
 import Intro from "../components/Intro/Intro";
 import Music from "../components/Music/Music";
+import Weather from "../components/Weather/Weather";
 
 export const AppRouters = () => (
     <Routes>
@@ -16,5 +17,6 @@ export const AppRouters = () => (
         <Route path="VR" element={<VR />} />
         <Route path="Music" element={<Music />} />
         <Route path="Game" element={<Game />} />
+        <Route path="Weather" element={<Weather />} />
     </Routes>
 )

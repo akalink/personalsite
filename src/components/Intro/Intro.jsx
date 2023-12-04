@@ -9,7 +9,7 @@ function Intro(){
         navigate("/about")
     }
     return(
-        <div className="btn-area">
+        <div className="btn-area" id="hover-btn">
             <button className="this-btn" type="button" onClick={handleClick}><strong>Enter</strong></button>
         </div>
     )

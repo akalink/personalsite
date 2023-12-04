@@ -7,6 +7,7 @@ function PortfolioBox(port){
             <h3>{port.title}</h3>
             <a href={port.link} target="_blank">Link to Repository</a>
             <p>{port.description}</p>
+            <img src={port.pic} alt={port.picAlt}></img>
             <br></br>
         </div>
     )
