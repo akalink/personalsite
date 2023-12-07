@@ -11,7 +11,7 @@ function Bio(){
     return (
         <div id="bio">
             <div className="biopic">
-                <img  src="https://cdn.discordapp.com/attachments/551232775554859020/1032732132327571516/summedian_lunar_color2.png" alt="my picture" />
+                <img  src="https://github.com/akalink/personalsite/blob/main/raw%20stuff/portrait.jpg?raw=true" alt="my picture" />
             </div>
             <article>
                 

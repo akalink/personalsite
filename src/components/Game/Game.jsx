@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardBox from "./CardBox";
+import "./Game.css"
 
 const cardImages = [
     { "src": "https://github.com/akalink/personalsite/blob/main/raw%20stuff/cube.png?raw=true", matched: false},
@@ -70,8 +71,9 @@ function Game() {
     return (
         <div>
             {/*<img src={cardImages[1].src} />*/}
-
-            <button id="btn" onClick={shuffleCards} ><strong>Shuffle</strong></button>
+            <div id="btn-hover">
+                <button id="btn" onClick={shuffleCards} ><strong>Shuffle</strong></button>
+            </div>
             <div className="card-grid">
             {cards.map(card => (   
                 <CardBox key={card.id} card={card} handleChoice={handleChoice} 

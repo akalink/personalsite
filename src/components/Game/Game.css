@@ -14,13 +14,16 @@
 
 #btn{
 
-    outline-style: dotted;
     color: white;
-    background-color: #121212;
+    background-color: black;
     font-size: large;
-    border-radius: 10%;
+    border-radius: 1em;
     padding: .5em;
     margin: .5em;
+}
+
+#btn-hover :hover {
+    background-color: gray;
 }
 
 

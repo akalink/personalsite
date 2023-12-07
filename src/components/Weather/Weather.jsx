@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Weather.css"
 import axios from "axios";
 
 function GetLocationWeather(props) {
@@ -34,11 +35,15 @@ function Weather(){
         <div>
             <h1>Weather</h1>
             <form>
-                <label><strong>Enter a city</strong></label>
+                <label id="city"><strong>Enter a city</strong></label>
                 <br />
-                <input type="text" name="City" onChange={(e) => setCity(e.target.value)} onKeyDown={ (e) => handleKeyDown(e)}/>
-                <br />
-                <button onClick={(e) => fetchData(e)} type="button">Submit</button>
+                <div className="text-form">
+                    <input  type="text" name="City" onChange={(e) => setCity(e.target.value)} onKeyDown={ (e) => handleKeyDown(e)}/>
+                    <br />
+                    <div id="hover-btn">
+                        <button  onClick={(e) => fetchData(e)} type="button">Submit</button>
+                    </div>
+                </div>
             </form>
             {GetLocationWeather(responseData)}
         </div>

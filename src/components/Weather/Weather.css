@@ -1,0 +1,33 @@
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#city {
+    font-size: 2em;
+}
+
+.text-form{
+    padding: 1em;
+}
+input {
+    width: 15%;
+    padding: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+button {
+    margin: .5em;
+    padding: .5em;
+    color: white;
+    background-color: black;
+    outline-color: black;
+    font-size: 1em;
+    width: 10%;
+    border-radius: 1em;
+}
+
+#hover-btn :hover {
+    background-color: gray;
+}
