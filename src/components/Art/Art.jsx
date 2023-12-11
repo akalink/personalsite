@@ -17,7 +17,7 @@ const arts = [
     },
     { 
         key : 3,
-        link : "http://www.mcphersonsound.com/uploads/1/4/1/7/14172286/vrchat-1920x1080-2020-07-05-00-24-45-697_orig.png",
+        link : "https://github.com/akalink/personalsite/blob/main/raw%20stuff/vrchat-1920x1080-2020-07-05-00-24-45-697_orig.png?raw=true",
         alt: "dark living room with art pieces",
         comment: "A relaxing lounging area"
     },
@@ -29,7 +29,7 @@ const arts = [
     },
     {
         key : 5,
-        link : "http://www.mcphersonsound.com/uploads/1/4/1/7/14172286/vrchat-1920x1080-2020-07-05-00-25-28-286_orig.png",
+        link : "https://github.com/akalink/personalsite/blob/main/raw%20stuff/vrchat-1920x1080-2020-07-05-00-25-28-286_orig.png?raw=true",
         alt: "Urban art",
         comment: "Urban art"
     },    
