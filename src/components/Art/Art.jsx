@@ -5,13 +5,13 @@ import ArtBox from "./ArtBox";
 const arts = [
     { 
         key : 1,
-        link : "http://www.mcphersonsound.com/uploads/1/4/1/7/14172286/published/vrchat-1920x1080-2020-07-05-00-23-49-860.png?1593934250",
+        link : "https://github.com/akalink/personalsite/blob/main/raw%20stuff/vrchat-1920x1080-2020-07-05-00-23-49-860.png?raw=true",
         alt : "sky waterfall",
         comment: "comment"
     },
     { 
         key : 2,
-        link : "http://www.mcphersonsound.com/uploads/1/4/1/7/14172286/vrchat-1920x1080-2020-07-05-00-22-13-653_orig.png",
+        link : "https://github.com/akalink/personalsite/blob/main/raw%20stuff/vrchat-1920x1080-2020-07-05-00-22-13-653_orig.png?raw=true",
         alt: "low resolution valley park with pixel river",
         comment: "A nostalgic river of pixels"
     },
